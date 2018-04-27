@@ -22,4 +22,11 @@ class School
   #   end 
   # end
   
+    def sort(roster)
+   roster.each do |number, student_array|
+        roster[number] = student_array.sort 
+    end 
+    
+  end 
+  
 end 
