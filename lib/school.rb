@@ -16,6 +16,7 @@ class School
      roster[grade]
    end 
   
+  #solution with transform_values - does not work on this version of Ruby 
   # def sort
   #   roster.transform_values! do |grade_array|
   #     grade_array.sort 
