@@ -22,7 +22,7 @@ class School
   #   end 
   # end
   
-  def sort(roster)
+  def sort
    roster.each do |number, student_array|
         roster[number] = student_array.sort 
     end 
